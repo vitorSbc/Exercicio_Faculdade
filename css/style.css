@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: #EDEDED;
+    font-family: "Jost",sans-serif;
+}
+
+#cabecalho{
+    width: 1660px;
+    margin: 50px auto;
+}
+
+#principal{
+    width: 1660px;
+    border: 3px solid #3c2e30b0;
+    margin: 10px auto;
+}
+
+
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("../pictures/foto.jfif");
+    background-size: contain;
+    box-shadow: 1px 5px 10px  #00000063;
+}
+
+nav ul {
+    margin-top:15px ;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 160px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Julius Sans One", sans-serif;
+    color: #4FBA64;
+}
+
+.linha{
+    width: 80%;
+    height: 1px;
+    background-color: #3c2e30;
+    margin: 8px auto;
+}
+
+.info {
+    margin: 30px auto;
+    width: 80%;
+}
+
+.info h1{
+    font-weight:normal;
+    font-size: 40px;
+    font-family: "Julius Sans One", sans-serif;
+    color: #4FBA64;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.info p{
+    color: #394E41;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#formacao{
+    margin-top: 100px;
+}
+
+#projetos p a{
+    text-decoration: none;
+    color: #394E41;
+    margin-top: 400px;
+}
+
+
+#projetos .img1{
+    margin:20px auto;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    background-image: url("../pictures/Paleo\ Pulse.png");
+    background-size: cover;
+}
+
+#projetos .img2{
+    margin:20px auto;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    background-image: url("../pictures/Starbucks.png");
+    background-size: cover;
+    background-position: right;
+}
+
+#projetos .img3{
+    margin:20px auto;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    background-image: url("../pictures/Frame\ 1.png");
+    background-size:cover ;
+}
